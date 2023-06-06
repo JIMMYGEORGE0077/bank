@@ -8,19 +8,19 @@
           class="img-fluid" alt="Phone image">
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-        <form id="jim">
+        <form id="jmy">
           <!-- style.css il jim id und (hover cheyan) -->
 
           <!-- Ac input -->
           <div class="form-outline mb-4">
-            <input (change)="acnoChange($event)" type="text" id="form1Example13" class="form-control form-control-lg" [placeholder]="plchldrjim" />
+            <input [(ngModel)]="acno"  name="uname" type="text" id="form1Example13" class="form-control form-control-lg" [placeholder]="plchldrjim" />
             <!-- property binding [plchldrjim] -->
             <label class="form-label" for="form1Example13">Account No</label>
           </div>
 
           <!-- Password input -->
           <div class="form-outline mb-4">
-            <input type="password" id="form1Example23" class="form-control form-control-lg" />
+            <input [(ngModel)]="psw" name="password" type="password" id="form1Example23" class="form-control form-control-lg" />
             <label class="form-label" for="form1Example23">Password</label>
           </div>
 

@@ -6,3 +6,11 @@
 #jim:hover{
     transform: scale(1.05);
 }
+
+/* form id = jmy */
+#jmy{
+    transition: .5s ease-in-out;
+}
+#jmy:hover{
+    transform: scale(1.05);
+}

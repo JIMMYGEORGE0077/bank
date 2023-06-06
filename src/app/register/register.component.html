@@ -11,25 +11,25 @@
                 <form id="jim">
                     <!-- username input -->
                     <div class="form-outline mb-4">
-                        <input type="text" id="form1Example13" class="form-control form-control-lg" />
+                        <input [(ngModel)]="acno" type="text" id="a1" class="form-control form-control-lg" />
                         <label class="form-label" for="form1Example13">Username</label>
                     </div>
 
                     <!-- ac input -->
                     <div class="form-outline mb-4">
-                        <input type="text" id="form1Example13" class="form-control form-control-lg" />
+                        <input [(ngModel)]="uname" type="text" id="a2" class="form-control form-control-lg" />
                         <label class="form-label" for="form1Example13">Account No</label>
                     </div>
 
                     <!-- Password input -->
                     <div class="form-outline mb-4">
-                        <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                        <input [(ngModel)]="psw" type="password" id="a3" class="form-control form-control-lg" />
                         <label class="form-label" for="form1Example23">Password</label>
                     </div>
 
                     <!-- Password input -->
                     <div class="form-outline mb-4">
-                        <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                        <input [(ngModel)]="cpsw" type="password" id="a4" class="form-control form-control-lg" />
                         <label class="form-label" for="form1Example23"> Confirm Password</label>
                     </div>
 
@@ -44,7 +44,7 @@
                     </div>
 
                     <!-- Submit button -->
-                    <button id="jim" type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                    <button (click)="signup()" id="jim" type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
                     <!-- style.css il jim id und  -->
 
                 </form>   

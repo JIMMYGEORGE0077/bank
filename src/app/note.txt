@@ -32,10 +32,62 @@ view    to   component
 
 2.  two way data binding
 
-
+    2.1- ngModel
+        - FormsModule - module
 
 
 Life cycle blocks of Angular component
-_______________________________________
+______________________________________
 
 constructor -   ngOnInit    -   other methods
+
+
+Dependancy Injection
+....................
+ Used to access data and  methods of one class in another class(like inheritance)
+
+ - inside constructor()
+ - access specifier - private/public
+
+            constructor(private/public reference: ClassName)
+
+
+Angular Services
+................
+
+A file used to keep datas & methods that can access by any components in that module
+
+
+ng g s (jim)serviceName - service create cheyan
+
+_________________________________________________________________________________________________-
+
+npm init         - server create cheyan (main folderil create cheyaruth, thottu backile pagil)
+npm i express    - express install cheyan
+
+
+
+Api
+...
+
+HttpClientModule - Module
+HttpClient       - class
+methods
+    -   get,put,post,patch,delete
+
+
+    Asynchronous in ts
+    ..................
+
+    js - promise    - then()
+                    - catch()
+    ts - observable - subscribe()
+                    - catch()
+
+
+
+Form Creation In Angular
+........................
+
+1. template driven form
+2. model driven form
